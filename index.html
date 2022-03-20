@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <title>Vaccination</title>
+  <style>
+    .principal {
+      color: #3353D1;
+    }
+
+.triangulo_start {
+    width: 0;
+    height: 0;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-top: 130px solid #F4F6FB;
+    margin: 130px auto auto auto;
+    position: relative;
+    float: left;
+}
+.triangulo_der {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-left: 150px solid #F4F6FB;
+    border-bottom: 150px solid transparent;
+    float: left;
+}
+.line_der{
+    border-left: 150px solid white;
+    height: 1px;
+    margin: 150px auto auto auto;
+    background-color: #F4F6FB;
+    position: relative
+}
+    .triangulo_izq {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #F4F6FB;
+    border-bottom: 150px solid transparent;
+    float: right;
+}
+.line_izq{
+    border-right: 150px solid white;
+    height: 1px;
+    margin: 150px auto auto auto;
+    background-color: #F4F6FB;
+    position: relative
+}
+
+.triangulo_end {
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid #E2E9F9;
+    padding: auto auto auto 130px;
+    /* position: relative; */
+    /* float: right; */
+}
+  </style>
+</head>
+
+<body>
+  <div class="container" style="position: relative;">
+    <div class="row">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="opacity: 0.9;">
+        <div class="container">
+          <a class="navbar-brand m-4 fs-1 principal fw-bold" href="#" style="color: #3353D1;">Vaccination</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="">
+            <button class="btn btn-light m-3 fw-bolder text-muted fs-4">Database</button>
+            <button class="btn btn-light m-3 fw-bolder text-muted fs-4">Education</button>
+            <button class="btn btn-light m-3 fw-bolder text-muted fs-4">News</button>
+            <button class="btn btn-light m-3 fw-bolder text-muted fs-4">Regulations</button>
+            <button class="btn btn-primary m-3 fs-4" style="background-color: #3353D1;">Hoas Busher</button>
+
+
+          </div>
+        </div>
+      </nav>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="triangulo_start"></div>
+          </div>
+          <div class="col-md-6" style="background-color: #118EE4;">
+            <br><br><br><br><br><br>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12" style="position: relative;">
+        <div class="row">
+          <div class="col-md-6 text-start">
+            <p style="color: #1F3E72; font-size: 80px;" class="fw-bold"> <br> Fight Virus With Vaccines</p>
+            <p class="text-muted fs-4">Let´s stop this pandemic by killing the virus with a vaccine, don´t let yourself
+              and your family get infected</p>
+
+            <span style="color: #1F3E72;" class="fs-3 me-5">
+              <i class="bi bi-shield-check text-warning fw-bold  p-2 rounded-3" style=" background-color: #FFF5CE;"></i>
+              Best protection
+            </span>
+            <span style="color: #1F3E72;" class=" fs-3">
+              <i class="bi bi-star-fill text-warning fw-bold p-2 rounded-3" style=" background-color: #FFF5CE;"></i>
+              Selected Vaccines
+            </span>
+            <div class="triangulo_izq "></div>
+            <br><br><br><br><br><br><br><br><br><br>
+            <p style="color: #1F3E72;" class=" fs-3 fw-bold"><i class="bi bi-watch" style="color: #2B4BC9;"></i>
+              Schedule your vaccinations</p>
+            <div class="shadow p-3 mb-5 bg-body rounded col-8 row" style="position: absolute; left: 40px;">
+              <div class="col-3">
+
+                <p class="text-muted fs-4"><i class="bi bi-pin-map-fill" style="color: #2B4BC9;"></i>&nbsp;Location</p>
+                <p style="color: #1F3E72;" class=" fs-3 fw-bold">Jakarta Utara</p>
+              </div>
+              <div class="col-3">
+
+                <p class="text-muted fs-4"><i class="bi bi-calendar3" style="color: #2B4BC9;"></i>&nbsp;Date</p>
+                <p style="color: #1F3E72;" class=" fs-3 fw-bold">08 July 2021</p>
+              </div>
+              <div class="col-3">
+
+                <p class="text-muted fs-4"><i class="bi bi-pencil-fill" style="color: #2B4BC9;"></i>&nbsp;Vaccine Type
+                </p>
+                <p style="color: #1F3E72;" class=" fs-3 fw-bold">Moderna</p>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary m-3 fs-4" style="background-color: #3353D1;">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" style="background-color: #118EE4;">
+            <img src="imgs/nursereco.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mt-5 mb-5">
+            <img src="imgs/img.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mt-5 mb-5 row">
+            <div class="col-6">
+              <p style="color: #1F3E72;" class=" fs-1 fw-bold">Why should i vaccine?</p>
+              <p class="text-muted fs-2">In orden to avoid any doubts about getting the COVID-19 vaccine, identify the
+                fallowing 4 benefits of COVID-19 vaccination :</p>
+
+            </div>
+            <div class="col-6">
+              <div class="triangulo_izq "></div>
+              <div class="line_izq" ></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mt-5 mb-5">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+              <div class="col ">
+                <div class="card border border-4">
+                  <div class="card-body">
+                    <h5 class="card-title  fs-1 "><i class="bi bi-sliders rounded-3  p-2"
+                        style="color: #1F3E72;background-color: #C3CEF5;"></i></h5>
+                    <p class="card-text fw-bold fs-3" style="color: #1F3E72;"> Minimize the spread if viruses</p>
+                    <p class="text-muted fs-3">Vaccine has been proven effective to prevent someone from getting
+                      infected with Coronavirus</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border border-4 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title  fs-1 "><i class="bi bi-shield-fill-check rounded-3 p-2"
+                        style="color: #1F3E72;background-color: #C3CEF5;"></i></h5>
+                    <p class="card-text fw-bold fs-3" style="color: #1F3E72;"> Minimize the spread if viruses</p>
+                    <p class="text-muted fs-3">Vaccine has been proven effective to prevent someone from getting
+                      infected with Coronavirus</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border border-4">
+                  <div class="card-body">
+                    <h5 class="card-title  fs-1 "><i class="bi bi-people-fill rounded-3 p-2"
+                        style="color: #1F3E72;background-color: #C3CEF5;"></i></h5>
+                    <p class="card-text fw-bold fs-3" style="color: #1F3E72;"> Minimize the spread if viruses</p>
+                    <p class="text-muted fs-3">Vaccine has been proven effective to prevent someone from getting
+                      infected with Coronavirus</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border border-4">
+                  <div class="card-body">
+                    <h5 class="card-title  fs-1 "><i class="bi bi-graph-up-arrow rounded-3 p-2"
+                        style="color: #1F3E72;background-color: #C3CEF5;"></i></h5>
+                    <p class="card-text fw-bold fs-3" style="color: #1F3E72;"> Minimize the spread if viruses</p>
+                    <p class="text-muted fs-3">Vaccine has been proven effective to prevent someone from getting
+                      infected with Coronavirus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row"> -->
+          <div class="col-md-12 mt-5 mb-5 row">
+          <div class="col-6">
+            <div class="triangulo_der "></div>
+            <div class="line_der"></div>
+
+          </div>
+          <div class="col-6">
+            <p style="color: #1F3E72;" class=" fs-1 fw-bold">Preparations Before Vaccine</p>
+            <p class="text-muted fs-2">the success of vaccines is strongly influenced by the strength of the body´s
+              immune system. therefore, there are several things that can be trided to make the COVID-19 vaccine work:
+            </p>
+
+          </div>
+        </div>
+        <!-- </div> -->
+        <div class="col-12 row">
+          <div class="col-md-6" style="background-color: #118EE4;">
+            <img src="imgs/nursereco2.png" alt="">
+          </div>
+          <div class="col-md-5 text-start mx-auto">
+            <div class="list-group">
+              <br><br><br>
+
+              <a class="list-group-item list-group-item-action border border-1 float-start " data-bs-toggle="collapse"
+                href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                <i class="bi bi-graph-up-arrow rounded-3  me-3 float-start fs-4" style="color: #1F3E72;background-color: #C3CEF5;"></i> 
+                <span class="fs-5 fw-bold"> Avoid alcoholic beverages</span
+                ><i class="bi bi-caret-down-fill rounded-3 p-2 float-end" style="color: #1F3E72;background-color: #C3CEF5;"></i>
+              </a>
+              <div class="collapse p-5 " id="collapseExample1">
+                <div class="card card-body shadow ">
+                  <p>
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                  the user activates the relevant trigger.</p>
+                </div>
+                </div>
+                <br><br><br>
+              <a class="list-group-item list-group-item-action border border-1 float-start" data-bs-toggle="collapse"
+                href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                <i class="bi bi-graph-up-arrow rounded-3  me-3 float-start fs-4" style="color: #1F3E72;background-color: #C3CEF5;"></i> 
+                <span class="fs-5 fw-bold"> Avoid stress</span
+                ><i class="bi bi-caret-down-fill rounded-3 p-2 float-end" style="color: #1F3E72;background-color: #C3CEF5;"></i>
+              </a>
+              <div class="collapse p-2 " id="collapseExample2">
+                <div class="card card-body shadow ">
+                  <p>
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                  the user activates the relevant trigger.</p>
+                </div>
+              </div>
+              <br><br><br>
+
+              <a class="list-group-item list-group-item-action border border-1 float-start" data-bs-toggle="collapse"
+                href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                <i class="bi bi-graph-up-arrow rounded-3  me-3 float-start fs-4" style="color: #1F3E72;background-color: #C3CEF5;"></i> 
+                <span class="fs-5 fw-bold"> Eat healthy food</span
+                ><i class="bi bi-caret-down-fill rounded-3 p-2 float-end" style="color: #1F3E72;background-color: #C3CEF5;"></i>
+              </a>
+              <div class="collapse p-2 " id="collapseExample3">
+                <div class="card card-body shadow ">
+                  <p>
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                  the user activates the relevant trigger.</p>
+                </div>
+              </div>
+              <br><br><br>
+
+              <a class="list-group-item list-group-item-action border border-1 float-start" data-bs-toggle="collapse"
+                href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                <i class="bi bi-graph-up-arrow rounded-3  me-3 float-start fs-4" style="color: #1F3E72;background-color: #C3CEF5;"></i> 
+                <span class="fs-5 fw-bold"> Get enough sleep</span
+                ><i class="bi bi-caret-down-fill rounded-3 p-2 float-end" style="color: #1F3E72;background-color: #C3CEF5;"></i>
+              </a>
+              <div class="collapse p-2 " id="collapseExample4">
+                <div class="card card-body shadow ">
+                  <p>
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                  the user activates the relevant trigger.</p>
+                </div>
+              </div>
+              <br><br><br>
+
+              <a class="list-group-item list-group-item-action border border-1 float-start" data-bs-toggle="collapse"
+                href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
+                <i class="bi bi-graph-up-arrow rounded-3  me-3 float-start fs-4" style="color: #1F3E72;background-color: #C3CEF5;"></i> 
+                <span class="fs-5 fw-bold"> Excercise or physical activity</span
+                ><i class="bi bi-caret-down-fill rounded-3 p-2 float-end" style="color: #1F3E72;background-color: #C3CEF5;"></i>
+              </a>
+              <div class="collapse p-2 " id="collapseExample5">
+                <div class="card card-body shadow ">
+                  <p>
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                  the user activates the relevant trigger.</p>
+                </div>
+              </div>
+              <br><br><br>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 mt-5 mb-5 row">
+          <div class="col-6">
+            <p style="color: #1F3E72;" class=" fs-1 fw-bold">Emergency Contact</p>
+            <p class="text-muted fs-2">Contact one of the contacts below if you or your family feel unwell and have similar symptoms such as Covid-19, make sure you also care of yourself before reporting to us :
+            </p>
+          </div>
+          <div class="col-6">
+            <div class="triangulo_izq "></div>
+            <div class="line_izq" ></div>
+          </div>
+        </div>
+        <div class="col-12 row">
+          <div class="col-md-6 text-start mx-auto">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body p-5">
+                      <div class="col-12 row">
+                        <div class="col-3 me-3">
+                          <i class="bi bi-sliders rounded-3  p-2 fs-1 "
+                      style="color: #1F3E72;background-color: #F1F5FF;"></i>
+                        </div>
+                        <div class="col-8 ">
+                          <p class="fs-4 fw-bold" style="color: #1F3E72;">Call</p>
+                          <p class="text-muted me-">021.123.145.14</p>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <button class="btn btn-light fw-bold btn-lg" style="color: #1F3E72;background-color: #F1F5FF; color: #1F3E72;">Call Now</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body p-5">
+                      <div class="col-12 row">
+                        <div class="col-3 me-3">
+                          <i class="bi bi-sliders rounded-3  p-2 fs-1 "
+                      style="color: #1F3E72;background-color: #F1F5FF;"></i>
+                        </div>
+                        <div class="col-8 ">
+                          <p class="fs-4 fw-bold" style="color: #1F3E72;">Chat</p>
+                          <p class="text-muted me-">021.123.145.14</p>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <button class="btn btn-light fw-bold btn-lg" style="color: #1F3E72;background-color: #F1F5FF; color: #1F3E72;">Chat Now</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body p-5">
+                      <div class="col-12 row">
+                        <div class="col-3 me-3">
+                          <i class="bi bi-sliders rounded-3  p-2 fs-1 "
+                      style="color: #1F3E72;background-color: #F1F5FF;"></i>
+                        </div>
+                        <div class="col-8 ">
+                          <p class="fs-4 fw-bold" style="color: #1F3E72;">Video Call</p>
+                          <p class="text-muted me-">021.123.145.14</p>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <button class="btn btn-light fw-bold btn-lg" style="color: #1F3E72;background-color: #F1F5FF; color: #1F3E72;">Video Call Now</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body p-5">
+                      <div class="col-12 row">
+                        <div class="col-3 me-3">
+                          <i class="bi bi-sliders rounded-3  p-2 fs-1 "
+                      style="color: #1F3E72;background-color: #F1F5FF;"></i>
+                        </div>
+                        <div class="col-8 ">
+                          <p class="fs-4 fw-bold" style="color: #1F3E72;">Message</p>
+                          <p class="text-muted me-">021.123.145.14</p>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <button class="btn btn-light fw-bold btn-lg" style="color: #1F3E72;background-color: #F1F5FF; color: #1F3E72;">Message Now</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" style="background-color: #118EE4;">
+            <img src="imgs/nursereco3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+<footer style="background-color: #EEF3FF;"  style="position: relative;">
+  <div class="container">
+  <br><br><br>
+  <div class="col-12 row p-5">
+    <div class="col-4 mx-auto">
+      <p class="fs-3 fw-bold ">Vaccination</p>
+      <p class="text-muted"> Our goal is to help the world free from the ongoing pandemic</p>
+    </div>
+    <div class="col-8 mx-auto row" >
+      <div class="col-3 ms-5">
+        <p class="fs-3 fw-bold">Vaccination</p>
+        <button class="btn btn-link btn-lg" style="color: #6D7B93;">About Us</button>
+        <button class="btn btn-link btn-lg" style="color: #6D7B93;">Features</button>
+        <button class="btn btn-link btn-lg" style="color: #6D7B93;">News & Blog</button>
+      </div>
+      <div class="col-3 ms-5">
+        <p class="fs-3 fw-bold">Company</p>
+        <button class="btn btn-link btn-lg" style="color: #6D7B93;">How We Work?</button>
+        <button class="btn btn-link btn-lg" style="color: #6D7B93;">Capital</button>
+        <button class="btn btn-link btn-lg" style="color: #6D7B93;">Security</button>
+      </div>
+      <div class="col-3 ms-5" >
+        <p class="fs-3 fw-bold">Support</p>
+        <button class="btn btn-link btn-lg" style="color: #6D7B93;">FAQs</button>
+        <button class="btn btn-link btn-lg" style="color: #6D7B93;">Support</button>
+        <button class="btn btn-link btn-lg" style="color: #6D7B93;">Contact Us</button>
+        <div class="triangulo_end float-end"  style="position: absolute;  z-index: 1; right: 30px; " ></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12  p-5"  style="position: absolute;  z-index: 2;  right: 10px; ">
+    <p class="fw-bold float-start">@2022 Vaccination. All right reserved</p>
+    <button class="btn btn-link btn-lg float-end" style="color: #6D7B93; ">Terms & Agreements</button>
+    <button class="btn btn-link btn-lg float-end" style="color: #6D7B93;" >Privacy Policy</button>
+  </div>
+  
+  <br><br><br><br><br><br>
+</div>
+</footer>
+</html>
